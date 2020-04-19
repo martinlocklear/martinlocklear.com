@@ -1,9 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "martinlocklear.com",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "MIT",
+  "description": "A personal website for Martin Locklear",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -23,12 +21,5 @@
   },
   "devDependencies": {
     "prettier": "^1.19.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
