@@ -1,0 +1,3 @@
+[submodule "static/public_web_assets"]
+	path = static/public_web_assets
+	url = https://github.com/martinlocklear/public_web_assets.git
