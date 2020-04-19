@@ -1,0 +1,48 @@
+#header {
+    display: block;
+    margin-bottom: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#header-bar {
+    height: 8rem;
+    background-color: var(--font-background-color);
+    padding-top: 2rem;
+}
+
+#navigation-bar {
+    width: 100%;
+    min-height: 5rem;
+    background-color: var(--font-background-color);
+    margin-top: 1rem;
+}
+
+/* Push nav list away from photo */
+#navigation-bar::before {
+    content: '';
+    float: left;
+    min-height: 5rem;
+    min-width: 21rem;
+    width: 20%;
+}
+
+#navigation-list {
+    display: inline-flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 5rem;
+    margin: 0;
+    padding: 0;
+}
+ 
+.navigation-link {
+    display: inline-flex;
+    margin: 1rem 1.5rem;
+}
+
+#avatar-wrapper {
+    margin-left: 4rem;
+}
