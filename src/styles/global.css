@@ -1,0 +1,35 @@
+:root {
+    --main-color:#ffffff;
+    --accent-color-strong:#ffc000;
+    --accent-color-weak: var(--font-color);
+    --font-background-color: #3f4040;
+    --font-color: #d0cece;
+}
+
+html {
+    background-color: var(--main-color);
+    font-family: "Open Sans", sans-serif;
+    color: var(--font-color);
+}
+
+a:visited {
+    color: var(--font-color);
+}
+
+a:link {
+    color: var(--font-color);
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+.page-block {
+    color:var(--font-color);
+    background-color: var(--font-background-color);
+    padding: 1rem;
+}
