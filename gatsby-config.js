@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */  
   siteMetadata: {
     title: `Martin Locklear`,
+    author: `Martin Locklear`,
     siteUrl: `https://www.martinlocklear.com`,
     description: `Martin Locklear's Website`,
   },
@@ -21,6 +22,7 @@ module.exports = {
         lang: `en`,
         icon: `static/public_web_assets/martin_profile_photo_senegal.jpg`
       },
-    }
+    },
+    `gatsby-plugin-react-helmet`
   ],
 }
