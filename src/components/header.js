@@ -39,6 +39,7 @@ export default () => (
                 <ListLink to="/">Home</ListLink>
                 <ListLink to="https://www.linkedin.com/in/martinlocklear/">LinkedIn</ListLink>
                 <ListLink to="https://www.instagram.com/aliveeverywhere/">Instagram</ListLink>
+                <ListLink to="https://github.com/martinlocklear">GitHub</ListLink>
             </ul>
         </div>
     </div>
